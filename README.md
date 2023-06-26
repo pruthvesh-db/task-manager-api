@@ -3,7 +3,9 @@ Task Manager API
 Implemented a RESTful API with the below endpoints:
 
 (1) GET /tasks: Retrieve all tasks.
+
 (2) GET /tasks/:id Retrieve a single task by its ID. 
+
 (3) POST /tasks: Create a new task.
 payload : {
     "task_name": "String Content",
